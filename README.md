@@ -28,34 +28,54 @@ Core network services became unavailable to users
 Key Security Improvements
 
 -Firewall Hardening
+
 Implemented ICMP rate-limiting
+
 Enabled IP source verification
+
 Restricted external ICMP traffic
 
 -Monitoring and Detection
+
 Deployed network monitoring tools
+
+
 Configured IDS / IPS rules
+
 Added abnormal traffic alerting
+
 Reduced response time for future events
 
 -Operational Response
+
 Blocked ICMP traffic during incident
+
 Shut down non-critical services to stabilize load
+
 Communicated incident status to stakeholders
+
 Updated response playbook and training procedures
 
 -Recovery Actions
+
 Restored services and validated system integrity
+
 Confirmed no data loss occurred
+
 Scheduled recurring firewall and IDS/IPS testing
 
 What I Learned
 
 How network misconfigurations can increase attack impact
+
 The importance of monitoring, alerts, and visibility
+
 How ICMP flooding can overwhelm infrastructure
+
 Why proactive security controls reduce downtime
+
 How structured frameworks guide better incident handling
 
 Project Reflection
+
 This project strengthened my understanding of incident response, network defense strategy, and practical application of the NIST CSF in real-world scenarios. It improved my ability to analyze security events, design remediation actions, and document findings in a professional security context.
